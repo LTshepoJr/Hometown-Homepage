@@ -1,0 +1,48 @@
+body,
+html * {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+  color: var(--charcoal);
+  background: var(--snow);
+}
+
+:root {
+  --gunmetal: #1f313bff;
+  --rose-taupe: #84594bff;
+  --liver: #65463aff;
+  --eggshell: #eae3d0ff;
+  --beaver: #b68d7aff;
+  --charcoal: #333333;
+  --snow: #fafafa;
+}
+#header {
+  background-image: url("https://www.go2africa.com/wp-content/uploads/2024/11/Banner--1920x630.jpg");
+  background-size: cover;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#header h1 {
+  font-family: "Permanent Marker", cursive;
+  background: var(--gunmetal);
+  padding: 0.3em 0.7em;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: var(--beaver);
+}
+
+#header p {
+  background: var(--beaver);
+  font-weight: 600;
+  font-size: large;
+  padding: 0.5em 2em;
+  border-radius: 20px;
+}
+
+#info {
+  text-align: center;
+  margin-top: 30px;
+}
