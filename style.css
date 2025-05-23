@@ -64,6 +64,13 @@ html {
   border-radius: 50%;
   width: 10em;
   height: 10em;
+  transition: all 0.4s ease;
+}
+
+.place img:hover {
+  border-radius: 0;
+  width: 12em;
+  height: 12em;
 }
 
 .place h4 {
@@ -89,6 +96,12 @@ html {
   width: 10em;
   padding: 1em 0;
   border-radius: 17%;
+  transition: all 0.4s ease;
+}
+
+#card img:hover {
+  position: relative;
+  width: 13em;
 }
 
 #card-info {
