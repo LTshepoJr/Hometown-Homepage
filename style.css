@@ -107,3 +107,30 @@ html {
 #card-info {
   padding-left: 17px;
 }
+
+#food {
+  display: block;
+  margin: 0 auto;
+  width: 35em;
+}
+
+#food h2 {
+  text-align: center;
+}
+
+#food h2 {
+  text-decoration: underline;
+}
+
+#food dt {
+  font-weight: 800;
+  font-size: large;
+}
+
+#food dt::after {
+  content: ":";
+}
+
+#food dd::before {
+  content: "→ ";
+}
